@@ -1,13 +1,13 @@
 class DelegateMcp < Formula
   desc "Delegate agentic coding tasks from Claude Code to a local model, observably"
   homepage "https://github.com/RaphaelMitas/delegate-mcp"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/RaphaelMitas/delegate-mcp/releases/download/v#{version}/delegate-mcp-#{version}-arm64.tar.gz"
-      sha256 "86f3fbfc02dddb84f1fe63281a2bbf22531677396b78601f762e8d4d2cb65428"
+      sha256 "cf506e1acd700b9f1daec44c4337a595c1e3e1273c960ca76eaaf8de65b3fd4e"
     end
   end
 
