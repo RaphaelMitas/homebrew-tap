@@ -1,6 +1,6 @@
 cask "delegate" do
-  version "0.2.2"
-  sha256 "d84ef31f2106373eabdb410b4e45260327140496bf8de42b936649e503e48e6a"
+  version "0.2.3"
+  sha256 "243d10c4a968ae208c239cf274ac77cc726a9372fec458201a441b9b05494f36"
 
   url "https://github.com/RaphaelMitas/delegate-mcp/releases/download/v#{version}/delegate-mcp-#{version}.zip"
   name "Delegate"
