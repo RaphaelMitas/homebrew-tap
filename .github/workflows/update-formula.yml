@@ -73,4 +73,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add "Formula/${{ inputs.formula_name }}.rb"
           git commit -m "Update ${{ inputs.formula_name }} to ${{ inputs.release_tag }}"
-          git push
+          # Retry with rebase: formula and cask updates are often dispatched
+          # together and race on pushing to main.
+          for i in 1 2 3 4 5; do
+            git push && break
+            git pull --rebase
+          done
