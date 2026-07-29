@@ -1,8 +1,8 @@
 cask "saytype" do
-  version "0.2.19"
-  sha256 "d099d93202c35645241783dd7692a9a66b7049875647cb540d7c6312bcea9931"
+  version "0.3.0"
+  sha256 "ca9b61c87acfd26171cd297b23eb6416ed5f2ddf7a7396fa84b0c67b7b8967cf"
 
-  url "https://github.com/raphaelmitas/saytype/releases/download/v#{version}/Saytype-#{version}.zip"
+  url "https://github.com/RaphaelMitas/saytype/releases/download/v#{version}/Saytype-#{version}.zip"
   name "Saytype"
   desc "Push-to-talk speech-to-text for macOS"
   homepage "https://github.com/raphaelmitas/saytype"
