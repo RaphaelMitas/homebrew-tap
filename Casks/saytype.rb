@@ -4,10 +4,10 @@ cask "saytype" do
 
   url "https://github.com/RaphaelMitas/saytype/releases/download/v#{version}/Saytype-#{version}.zip"
   name "Saytype"
-  desc "Push-to-talk speech-to-text for macOS"
+  desc "Push-to-talk speech-to-text"
   homepage "https://github.com/raphaelmitas/saytype"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
   depends_on arch: :arm64
 
   app "Saytype.app"

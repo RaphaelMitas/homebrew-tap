@@ -7,7 +7,7 @@ cask "delegate" do
   desc "Menu-bar UI for the delegate-mcp local delegation daemon"
   homepage "https://github.com/RaphaelMitas/delegate-mcp"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
   depends_on arch: :arm64
 
   app "Delegate.app"

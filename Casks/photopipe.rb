@@ -7,7 +7,7 @@ cask "photopipe" do
   desc "Culling and pipeline manager for photo shoots"
   homepage "https://github.com/RaphaelMitas/photopipe"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
   depends_on arch: :arm64
 
   app "Photopipe.app"

@@ -4,10 +4,10 @@
 
 #   url "https://github.com/raphaelmitas/ExampleApp/releases/download/v#{version}/ExampleApp-#{version}.zip"
 #   name "Example App"
-#   desc "Description of your macOS app"
+#   desc "Description of your app"
 #   homepage "https://github.com/raphaelmitas/ExampleApp"
 
-#   depends_on macos: ">= :sonoma"
+#   depends_on macos: :sonoma
 #   depends_on arch: :arm64
 
 #   app "ExampleApp.app"
