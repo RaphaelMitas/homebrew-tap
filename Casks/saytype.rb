@@ -1,6 +1,6 @@
 cask "saytype" do
-  version "1.0.0"
-  sha256 "3292403d321c9e55fbdde80953751b5768e86fb3cbaeacf537a309bdd7f00c59"
+  version "1.0.1"
+  sha256 "3a59922849b15ad08c489baa20c74be797e574590328c87a9b099b2221c70c0d"
 
   url "https://github.com/RaphaelMitas/saytype/releases/download/v#{version}/Saytype-#{version}.zip"
   name "Saytype"
