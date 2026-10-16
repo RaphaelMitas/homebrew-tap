@@ -7,6 +7,8 @@ cask "saytype" do
   desc "Push-to-talk speech-to-text"
   homepage "https://github.com/raphaelmitas/saytype"
 
+  auto_updates true
+
   depends_on macos: :monterey
   depends_on arch: :arm64
 
