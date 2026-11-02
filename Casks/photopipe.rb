@@ -1,6 +1,6 @@
 cask "photopipe" do
-  version "1.4.0"
-  sha256 "c2212e29cffbe6b0cb04d37893e05135e6fd68cbbfac7e6804207062a7c68d34"
+  version "1.4.1"
+  sha256 "f5e06cdc4f83583cdba7efec23458b9fd10a4d747b3ef8b932e4576c231f432e"
 
   url "https://github.com/RaphaelMitas/photopipe/releases/download/v#{version}/photopipe-#{version}.zip"
   name "Photopipe"
